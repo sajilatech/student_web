@@ -1,0 +1,14 @@
+ALTER TABLE `pala_students` ADD `baptism_name` VARCHAR( 150 ) NOT NULL AFTER `name` 
+ALTER TABLE `pala_students` ADD `nick_name` VARCHAR( 100 ) NOT NULL AFTER `baptism_name` 
+
+ALTER TABLE `pala_student_relations` ADD `relation_nickname` VARCHAR( 100 ) NOT NULL AFTER `relation_name` 
+
+ALTER TABLE `pala_student_relations` CHANGE `relation_nickname` `relation_nickname` VARCHAR( 100 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT '0'
+ALTER TABLE `pala_student_relations` ADD `relation_education` VARCHAR( 100 ) NOT NULL AFTER `relation_occupation` 
+
+ALTER TABLE `pala_students` ADD `house_name` VARCHAR( 100 ) NOT NULL AFTER `mst_id` 
+
+ALTER TABLE `pala_students` ADD `catechism_class` VARCHAR( 100 ) NOT NULL AFTER `altara_boy` ,
+ADD `from_class` VARCHAR( 100 ) NOT NULL AFTER `catechism_class` 
+
+ALTER TABLE `pala_student_relations` ADD `relation_age` INT( 50 ) NOT NULL AFTER `relation_nickname` 

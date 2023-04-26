@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>Clean Zone</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300,200,100' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="js/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="fonts/font-awesome-4/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/pygments.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="js/jquery.nanoscroller/nanoscroller.css" />	
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.switch/bootstrap-switch.css" />
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.datetimepicker/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" type="text/css" href="js/jquery.select2/select2.css" />
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.slider/css/slider.css" />
+  </head>
+
+  <body>
+
+
+  <!-- Fixed navbar -->
+  <div id="head-nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="fa fa-gear"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span>Clean Zone</span></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+      <li class="dropdown-submenu"><a href="#">Sub menu</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          </ul>
+      </li>              
+      </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Large menu <b class="caret"></b></a>
+      <ul class="dropdown-menu col-menu-2">
+        <li class="col-sm-6 no-padding">
+          <ul>
+          <li class="dropdown-header"><i class="fa fa-group"></i>Users</li>
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="dropdown-header"><i class="fa fa-gear"></i>Config</li>
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li> 
+          </ul>
+        </li>
+        <li  class="col-sm-6 no-padding">
+          <ul>
+          <li class="dropdown-header"><i class="fa fa-legal"></i>Sales</li>
+          <li><a href="#">New sale</a></li>
+          <li><a href="#">Register a product</a></li>
+          <li><a href="#">Register a client</a></li> 
+          <li><a href="#">Month sales</a></li>
+          <li><a href="#">Delivered orders</a></li>
+          </ul>
+        </li>
+      </ul>
+          </li>
+        </ul>
+    <ul class="nav navbar-nav navbar-right user-nav">
+      <li class="dropdown profile_menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img alt="Avatar" src="images/avatar2.jpg" />Jeff Hanneman <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Sign Out</a></li>
+        </ul>
+      </li>
+    </ul>			
+    <ul class="nav navbar-nav navbar-right not-nav">
+      <li class="button dropdown">
+        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><i class=" fa fa-comments"></i></a>
+        <ul class="dropdown-menu messages">
+          <li>
+            <div class="nano nscroller">
+              <div class="content">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="images/avatar2.jpg" alt="avatar" /><span class="date pull-right">13 Sept.</span> <span class="name">Daniel</span> I'm following you, and I want your money! 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/avatar_50.jpg" alt="avatar" /><span class="date pull-right">20 Oct.</span><span class="name">Adam</span> is now following you 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/avatar4_50.jpg" alt="avatar" /><span class="date pull-right">2 Nov.</span><span class="name">Michael</span> is now following you 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="images/avatar3_50.jpg" alt="avatar" /><span class="date pull-right">2 Nov.</span><span class="name">Lucy</span> is now following you 
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <ul class="foot"><li><a href="#">View all messages </a></li></ul>           
+          </li>
+        </ul>
+      </li>
+      <li class="button dropdown">
+        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i><span class="bubble">2</span></a>
+        <ul class="dropdown-menu">
+          <li>
+            <div class="nano nscroller">
+              <div class="content">
+                <ul>
+                  <li><a href="#"><i class="fa fa-cloud-upload info"></i><b>Daniel</b> is now following you <span class="date">2 minutes ago.</span></a></li>
+                  <li><a href="#"><i class="fa fa-male success"></i> <b>Michael</b> is now following you <span class="date">15 minutes ago.</span></a></li>
+                  <li><a href="#"><i class="fa fa-bug warning"></i> <b>Mia</b> commented on post <span class="date">30 minutes ago.</span></a></li>
+                  <li><a href="#"><i class="fa fa-credit-card danger"></i> <b>Andrew</b> killed someone <span class="date">1 hour ago.</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="foot"><li><a href="#">View all activity </a></li></ul>           
+          </li>
+        </ul>
+      </li>
+      <li class="button"><a href="javascript:;"><i class="fa fa-microphone"></i></a></li>				
+    </ul>
+
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+	
+	<div id="cl-wrapper">
+		<div class="cl-sidebar">
+			<div class="cl-toggle"><i class="fa fa-bars"></i></div>
+			<div class="cl-navblock">
+				<ul class="cl-vnavigation">
+					<li><a href="index-2.html"><i class="fa fa-home"></i>Dashboard</a></li>
+					<li><a href="#"><i class="fa fa-smile-o"></i>UI Elements</a>
+						<ul class="sub-menu">
+							<li><a href="ui-elements.html">General</a></li>
+							<li><a href="ui-buttons.html">Buttons</a></li>
+							<li><a href="ui-icons.html">Icons</a></li>
+							<li><a href="ui-grid.html">Grid</a></li>
+							<li><a href="ui-tabs-accordions.html">Tabs & Acordions</a></li>
+							<li><a href="ui-nestable-lists.html">Nestable Lists</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="#"><i class="fa fa-list-alt"></i>Forms</a>
+						<ul class="sub-menu">
+							<li><a href="form-elements.html">Components</a></li>
+							<li><a href="form-validation.html">Validation</a></li>
+							<li><a href="form-wizard.html">Wizard</a></li>
+							<li><a href="form-masks.html">Input Masks</a></li>
+							<li><a href="form-wysiwyg.html">WYSIWYG Editor</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="fa fa-table"></i>Tables</a>
+						<ul class="sub-menu">
+							<li><a href="tables-general.html">General</a></li>
+							<li><a href="tables-datatables.html">Data Tables</a></li>
+						</ul>
+					</li>
+					<li><a href="maps.html"><i class="fa fa-map-marker nav-icon"></i>Maps</a></li>
+					<li><a href="typography.html"><i class="fa fa-text-height"></i>Typography</a></li>
+					<li><a href="charts.html"><i class="fa fa-bar-chart-o"></i>Charts</a></li>
+					<li><a href="#"><i class="fa fa-file"></i>Pages</a>
+						<ul class="sub-menu">
+							<li><a href="pages-blank.html">Blank Page</a></li>
+							<li><a href="pages-blank-header.html">Blank Page Header</a></li>
+							<li><a href="pages-login.html">Login</a></li>
+							<li><a href="pages-404.html">404 Page</a></li>
+							<li><a href="pages-500.html">500 Page</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	
+		<div class="container-fluid" id="pcont">
+			<div class="page-head">
+				<h2>Student Course Profile</h2>
+				<ol class="breadcrumb">
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#">UI Elements</a></li>
+				  <li class="active">Icons</li>
+				</ol>
+			</div>
+		  <div class="cl-mcont">
+          <div class="spacer2">
+									<button data-toggle="modal" type="button" class="btn btn-primary"><i class="fa fa-plus"></i> Add More Exams</button>
+                                    <button data-toggle="modal" type="button" class="btn btn-primary"><i class="fa fa-plus"></i> Add Certificates</button>
+                                    <button data-toggle="modal" type="button" class="btn btn-primary"><i class="fa fa-plus"></i> Add Educations</button>
+                                    <button data-toggle="modal" type="button" class="btn btn-success"><i class="fa fa-info-circle"></i> Information</button>
+									<button data-toggle="modal" type="button" class="btn btn-warning"><i class="fa fa-eye"></i> View</button>
+									<button data-toggle="modal" type="button" class="btn btn-danger"><i class="fa fa-times-circle"></i> Delete</button>
+								</div>
+			<div class="row">
+            
+				<div class="col-md-3 splpadding">
+					<div class="block-flat2">
+                    <h3>Personal Informations</h3>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td colspan="2" align="left" valign="top"><img src="images/noimg.jpg" alt=""></td>
+    </tr>
+  <tr>
+    <td>MST ID</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Date <span style="color:#F00;">*</span></td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Title <span style="color:#F00;">*</span></td>
+    <td><select name="" class="form-control parsley-validated">
+      <option>Select Title</option>
+      <option>Mr</option>
+      <option>Rev</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>Category <span style="color:#F00;">*</span></td>
+    <td><select name="" class="form-control parsley-validated">
+      <option>Select Category</option>
+      <option>Candidate</option>
+      <option>Well Wisher</option>
+      <option>Prayers</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Father's Name</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Place</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>DOB</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+</table>
+
+           <h3>Telephone & Email</h3>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td>Land Line 1</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Cell</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text" placeholder="Personal"><br>
+<input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text" placeholder="Father's Mob No"><br>
+<input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text" placeholder="Mother's Mob No"></td>
+  </tr>
+  <tr>
+    <td>Whatsapp</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Email<span style="color:#F00;">*</span></td>
+    <td><input name="std_name" type="text" required class="form-control parsley-validated" id="std_name" title="Name" value=""></td>
+  </tr>
+  <tr>
+    <td>FB</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+</table>
+
+
+           <h3>Postal Address</h3>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td>Post Box</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Post office</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text" >
+  </tr>
+  <tr>
+    <td>Pin Code</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>District</td>
+    <td><input name="std_name" type="text" required class="form-control parsley-validated" id="std_name" title="Name" value=""></td>
+  </tr>
+  <tr>
+    <td>State</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Country</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+</table>
+
+       <h3>Diocese & Parish</h3>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td>Diocese</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Parish</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text" >
+  </tr>
+  <tr>
+    <td>Parish Telephone</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Vicar Address</td>
+    <td><input name="std_name" type="text" required class="form-control parsley-validated" id="std_name" title="Name" value=""></td>
+  </tr>
+  <tr>
+    <td>Contact Member</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+</table>
+
+       <h3>Contacted Through</h3>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td>Name</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+    <tr>
+    <td>Phone Number</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+    <tr>
+    <td>Address</td>
+    <td><textarea name="std_name" required class="form-control parsley-validated" id="std_name" title="Name"></textarea></td>
+  </tr>
+    <tr>
+    <td>Whatsapp Number</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+    <tr>
+    <td>Facebook ID</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+                      </table>
+						
+					</div>				
+				</div>
+				
+				<div class="col-md-3 splpadding">
+					<div class="block-flat2">
+                    <h3>Time</h3>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td>Class</td>
+    <td><select name="" class="form-control parsley-validated">
+      <option>Select Class</option>
+      <option>VI</option>
+      <option>XII</option>
+      <option>Degree</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>School Syllabus</td>
+    <td><select name="" class="form-control parsley-validated">
+      <option>State</option>
+      <option>English</option>
+      <option>CSSE</option>
+      <option>ICSE</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>Place </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Sunday School</td>
+    <td><input name="std_name" type="text" required class="form-control parsley-validated" id="std_name" title="Name" value=""></td>
+  </tr>
+  <tr>
+    <td>Class Teacher</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Contact No</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Sunday School Teacher</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  
+ </table>	
+ 
+ <h3>Members of the Family</h3>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td>Father of Gaurdian</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Occupation</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Wedding Day </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Brother</td>
+    <td><input name="std_name" type="text" required class="form-control parsley-validated" id="std_name" title="Name" value=""></td>
+  </tr>
+  <tr>
+    <td>Status</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Sister</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  <tr>
+    <td>Status</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>G.Parents</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>MST Relation</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Preests in Fam</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Nuns in Fam</td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+  
+ </table>	
+      
+      <h3>Place</h3> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td colspan="2">House is Situated</td>
+    </tr>
+  <tr>
+    <td colspan="2"><textarea name="std_name" rows="2" required class="form-control parsley-validated" id="std_name" title="Name" placeholder="Route to Residence"></textarea></td>
+    </tr>
+  <tr>
+    <td colspan="2"><textarea name="std_name" rows="4" required class="form-control parsley-validated" id="std_name" placeholder="Details" title="Name"></textarea></td>
+    </tr>
+  
+     <tr>
+    <td colspan="2" class="block">
+    <div class="content no-padding ">
+							<ul class="items" >
+								<li style="padding-left:0px;"><a href="#"><i class="fa fa-file-text" style="line-height:10px;"></i>Filet Mignon</a> </li>
+                                <li style="padding-left:0px;"><a href="#"><i class="fa fa-file-text" style="line-height:10px;"></i>Filet Mignon</a> </li>
+                                </ul></div>
+    </td>
+    </tr>
+  </table>
+                 
+                    
+
+						
+					</div>				
+				</div>
+                
+                <div class="col-md-3 splpadding">
+					<div class="block-flat2">
+                    <h3>Family Status</h3>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td>Financial</td>
+    <td><select name="" class="form-control parsley-validated">
+      <option>Poor</option>
+      <option>Average</option>
+      <option>Medium</option>
+      <option>Good</option>
+      <option>Very Good</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>Reputation in Parish</td>
+    <td><select name="" class="form-control parsley-validated">
+    <option>Good</option>
+      <option>Poor</option>
+      <option>Average</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>Other </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+    <tr>
+    <td>Relation with Parish</td>
+    <td><select name="" class="form-control parsley-validated">
+    <option>Kaikarant Trustee</option>
+      <option>Sundays Teacher</option>
+    </select></td>
+  </tr>
+                    </table>	
+                    
+                          <h3>Family Related Details</h3> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+      
+        <tr>
+    <td>Category</td>
+    <td><select name="" class="form-control parsley-validated">
+    <option>Family</option>
+      <option>Intellectual</option>
+      <option>Physical & Mental</option>
+      <option>Talents</option>
+      <option>General</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td colspan="2"><textarea name="std_name" rows="2" required class="form-control parsley-validated" id="std_name" title="Name" placeholder="Question"></textarea></td>
+    </tr>
+  <tr>
+    <td colspan="2"><textarea name="std_name" rows="4" required class="form-control parsley-validated" id="std_name" placeholder="Answer" title="Name"></textarea></td>
+    </tr>
+    
+      <tr>
+    <td colspan="2">
+     <div class="alert alert-info alert-white rounded">
+								<button type="button" class="close" ><i class="fa fa-plus-circle" style="font-size:26px;"></i></button>
+								<div class="icon"><i class="fa fa-question-circle"></i></div>
+								<strong>ADD</strong> Next Question
+							 </div>
+    </td>
+    </tr>
+  </table>
+  
+  
+                   
+                   <h3>Qualities of Candidate</h3>
+                   
+                   		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+  <tr>
+    <td>Alter Boy</td>
+    <td><input name="" type="checkbox" value=""> Y <input name="" type="checkbox" value=""> N </td>
+  </tr>
+  <tr>
+    <td>Church Going</td>
+    <td><select name="" class="form-control parsley-validated">
+    <option>Daily</option>
+      <option>Once a Week</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>Singing </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+    <tr>
+    <td>Study</td>
+    <td><select name="" class="form-control parsley-validated">
+    <option>Good</option>
+      <option>Poor</option>
+    </select></td>
+  </tr>
+   <tr>
+    <td>Percentage % </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Drawing </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Oration </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Acting </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Sports </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Others </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Likes </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Disk </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Excellence Awards Received </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+   <tr>
+    <td>Hobbies </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+                    </table>	
+                    
+                    
+					</div>				
+				</div>
+                
+                
+				
+				<div class="col-md-3 splpadding">
+					<div class="block-flat2">
+                    <h3>Contacts to MST</h3>
+					  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+
+  <tr>
+    <td>Degree of Interest to be priest</td>
+    <td><select name="" class="form-control parsley-validated">
+    <option>Average</option>
+      <option>Good</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>Camp Attended </td>
+    <td><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+  </tr>
+    <tr>
+    <td colspan="2">Detail Reminders in Calling</td>
+    </tr>
+   <tr>
+    <td colspan="2"><input id="std_name" class="form-control parsley-validated" name="std_name" required title="Name" value="" type="text"></td>
+    </tr>
+    
+    <tr>
+    <td colspan="2">Exam Results</td>
+    </tr>
+    <tr>
+    <td colspan="2"><div style="width:100%; height:300px;  overflow-y: scroll;">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablestudentview">
+   <tr>
+    <td colspan="2" class="headviewbg">ONAM</td>
+    </tr>
+  <tr>
+    <td class="headview">Subject</td>
+    <td class="headview">Mark</td>
+    </tr>
+
+
+  <tr>
+    <td>dsfcsv</td>
+    <td>45</td>
+  </tr>
+    <tr>
+    <td>edwegr</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>hrhtukj</td>
+    <td>33</td></tr>
+       <tr>
+    <td colspan="2" class="headviewbg">FINAL EXAM</td>
+    </tr>
+  <tr>
+    <td class="headview">Subject</td>
+    <td class="headview">Mark</td>
+    </tr>
+
+
+  <tr>
+    <td>dsfcsv</td>
+    <td>45</td>
+  </tr>
+    <tr>
+    <td>edwegr</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>hrhtukj</td>
+    <td>33</td></tr>
+                        </table>
+                      </div></td>
+    </tr>
+      <tr>
+    <td colspan="2">Confidential Report of Viacar</td>
+    </tr>
+   <tr>
+    <td colspan="2"><textarea name="std_name" rows="3" required class="form-control parsley-validated" id="std_name" title="Name"></textarea></td>
+    </tr>
+      <tr>
+    <td colspan="2">Interview Comments & Result</td>
+    </tr>
+   <tr>
+    <td colspan="2"><textarea name="std_name" rows="3" required class="form-control parsley-validated" id="std_name" title="Name"></textarea></td>
+    </tr>
+      <tr>
+    <td colspan="2">Interviewed By Frs</td>
+    </tr>
+   <tr>
+    <td colspan="2"><textarea name="std_name" rows="3" required class="form-control parsley-validated" id="std_name" title="Name"></textarea></td>
+    </tr>
+    
+        <tr>
+    <td colspan="2">Google Map</td>
+    </tr>
+   <tr>
+    <td colspan="2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31460.69299268031!2d76.67032219790013!3d9.716277105149244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07cdceb06d5e9f%3A0xb33a8fbfd6cf2e34!2sPala%2C+Kerala!5e0!3m2!1sen!2sin!4v1512022800460" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></td>
+    </tr>
+    <tr>
+    <td colspan="2"><button class="btn btn-success" type="button"><i class="fa fa-share" ></i> Directions</button></td>
+    </tr>
+    
+ 
+
+                    </table>
+
+     
+						
+					</div>				
+				</div>
+			</div>
+			
+		  </div>
+		</div> 
+	</div>
+
+  <script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.nanoscroller/jquery.nanoscroller.js"></script>
+	<script type="text/javascript" src="js/jquery.nestable/jquery.nestable.js"></script>
+	<script type="text/javascript" src="js/bootstrap.switch/bootstrap-switch.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+  <script src="js/jquery.select2/select2.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.slider/js/bootstrap-slider.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/behaviour/general.js"></script>
+  <script src="js/jquery.ui/jquery-ui.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //initialize the javascript
+        App.init();
+      });
+    </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

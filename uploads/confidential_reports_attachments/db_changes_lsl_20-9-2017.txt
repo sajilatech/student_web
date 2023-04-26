@@ -1,0 +1,5 @@
+ALTER TABLE `lsl_cricket_matches` ADD `cmatch_result_status` VARCHAR(15) NOT NULL AFTER `cmatch_umpire`, ADD `cmatch_won` INT(11) NOT NULL AFTER `cmatch_result_status`;
+
+ALTER TABLE `lsl_cricket_matches` ADD `cmatch_loss` INT(11) NOT NULL AFTER `cmatch_won`;
+
+export table cricket stumping

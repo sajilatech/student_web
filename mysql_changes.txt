@@ -1,0 +1,4 @@
+favourate author
+
+ALTER TABLE `pala_students` CHANGE `state` `state` VARCHAR( 100 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL 
+ALTER TABLE `pala_students` CHANGE `district` `district` VARCHAR( 100 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL
